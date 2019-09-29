@@ -28,7 +28,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 1200,
     height: 1000,
-    title: "Penguin World",
+    title: "Waddle On",
     icon: __dirname + '/favicon.ico',
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
@@ -40,7 +40,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   //mainWindow.loadFile('index.html')
-  mainWindow.loadURL('https://play.penguinworld.co/index2.php')
+  mainWindow.loadURL('https://play.waddleon.net')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
